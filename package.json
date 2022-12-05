@@ -1,5 +1,5 @@
 {
-  "name": "vendure-plugin-content-asset",
+  "name": "@erken/vendure-plugin-content-asset",
   "version": "1.0.0",
   "description": "Vendure Plugin to manage content assets (html template or images) to be used on client side",
   "main": "dist/index.js",
