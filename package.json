@@ -2,9 +2,10 @@
   "name": "vendure-plugin-content-asset",
   "version": "1.0.0",
   "description": "Vendure Plugin to manage content assets (html template or images) to be used on client side",
-  "main": "index.js",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
   "scripts": {
-    "build": "rimraf dist && tsc",
+    "build": "rimraf dist && yarn graphql-codegen && tsc",
     "test": "jest --preset=\"ts-jest\"",
     "start": "yarn ts-node test/dev-server.ts",
     "dev:generate-types": "graphql-codegen"
